@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "jhon",
+    "dateExported": "2023-04-25T04:08:48.909Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "75c4e68e-6c7c-4983-a7a0-9e23f3ae2173",
+            "colId": "d844f457-e763-4a2e-9429-3be3a9d20187",
+            "containerId": "",
+            "name": "post",
+            "url": "http://localhost:4000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-25T03:59:25.085Z",
+            "modified": "2023-04-25T04:03:23.196Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n   \"title\":\"Franchiser\",\n        \"firstName\": \"Jhon Rell\",\n        \"lastName\": \"Gutang\",\n        \"role\": \"Admin\",\n        \"email\": \"Jhonrellg123@gmail.com\",\n        \"password\": \"123456\",\n        \"confirmPassword\": \"123456\"\n }\n ",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "914be5ff-1368-4182-b66e-a7872e3300d7",
+            "colId": "d844f457-e763-4a2e-9429-3be3a9d20187",
+            "containerId": "",
+            "name": "GETALL",
+            "url": "http://localhost:4000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-25T04:06:12.100Z",
+            "modified": "2023-04-25T04:06:12.100Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fcb320e9-c9c7-4037-85fc-46b15990e17b",
+            "colId": "d844f457-e763-4a2e-9429-3be3a9d20187",
+            "containerId": "",
+            "name": "getbyid",
+            "url": "http://localhost:4000/users/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-25T04:06:37.321Z",
+            "modified": "2023-04-25T04:06:37.321Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a2cb4647-0c79-4a49-b89a-208417e4f282",
+            "colId": "d844f457-e763-4a2e-9429-3be3a9d20187",
+            "containerId": "",
+            "name": "put",
+            "url": "http://localhost:4000/users/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-04-25T04:07:18.779Z",
+            "modified": "2023-04-25T04:07:18.779Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"mamarokay\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "db679222-e127-43dd-b4a6-e167977df55d",
+            "colId": "d844f457-e763-4a2e-9429-3be3a9d20187",
+            "containerId": "",
+            "name": "del",
+            "url": "http://localhost:4000/users/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-04-25T04:07:38.740Z",
+            "modified": "2023-04-25T04:07:38.740Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
